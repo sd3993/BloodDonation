@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/view_contact">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter contact information as required below."
+        android:id="@+id/regContactInstruc"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingBottom="50dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:id="@id/cell"
+                android:maxLines="1"
+                android:hint="Mobile Number"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="12"
+                android:id="@id/email"
+                android:maxLines="1"
+                android:hint="E-Mail"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="12"
+                android:id="@id/address"
+                android:maxLines="1"
+                android:hint="Home Address"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="12"
+                android:id="@+id/country"
+                android:maxLines="1"
+                android:hint="Country"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="12"
+                android:id="@+id/state"
+                android:maxLines="1"
+                android:hint="State"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="12"
+                android:id="@+id/city"
+                android:maxLines="1"
+                android:hint="City"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

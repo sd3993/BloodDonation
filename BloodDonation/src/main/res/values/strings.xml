@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Donation</string>
+    <string name="menu_about">About</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="spinner_prompt">Select Blood Group</string>
+
+    <string-array name="blood_group">
+        <item>No Selection</item>
+        <item>A+ (Positive)</item>
+        <item>A- (Negative)</item>
+        <item>B+ (Positive)</item>
+        <item>B- (Negative)</item>
+        <item>AB+ (Positive)</item>
+        <item>AB- (Negative)</item>
+        <item>O+ (Positive)</item>
+        <item>O- (Negative)</item>
+    </string-array>
+
+    <string name="title_section0">Name</string>
+    <string name="title_section1">Contact &amp; Location</string>
+    <string name="title_section2">Blood Group</string>
+    <string name="title_section3">Instruction</string>
+    <string name="title_section4">Summary</string>
+
+</resources>

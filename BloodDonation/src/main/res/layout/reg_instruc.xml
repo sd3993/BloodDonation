@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/view_ins">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The next page will provide you with a summary of all the information that you have entered in the previous 3 pages."
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please verify that each and every information is correct and ONLY then click on the 'Submit' button!"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ff0000" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="intro" type="id">00001</item>
+    <item name="instruction" type="id">00002</item>
+    <item name="fn" type="id">00003</item>
+    <item name="ln" type="id">00004</item>
+    <item name="cell" type="id">00006</item>
+    <item name="address" type="id">00007</item>
+    <item name="email" type="id">00008</item>
+    <item name="splashBG" type="id">00010</item>
+</resources>

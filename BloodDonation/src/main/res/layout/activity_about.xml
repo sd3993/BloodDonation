@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Developement"
+            android:id="@+id/head_appdev"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android :- Shouvik Dey"
+            android:id="@+id/ad_droid"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symbian :- Souvik Kundu (Hopefully :P)"
+            android:id="@+id/ad_symbian"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/contact_table"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:focusable="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/label_name"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="E-Mail"
+                    android:id="@+id/label_email"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:fitsSystemWindows="false"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shouvik Dey"
+                    android:id="@+id/sd_name"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shouvik.dey3993@gmail.com"
+                    android:id="@+id/sd_email"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:textSize="12dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sk"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Souvik Kundu"
+                    android:id="@+id/sk_name"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xyz@abc.com"
+                    android:id="@+id/sk_email"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:textSize="12dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rc"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajarshi Chakraborty"
+                    android:id="@+id/rc_name"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xyz@abc.com"
+                    android:id="@+id/rc_email"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:textSize="12dp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTE :- Please contact the appropriate people according to your problem/inquiry."
+        android:id="@+id/gyan"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

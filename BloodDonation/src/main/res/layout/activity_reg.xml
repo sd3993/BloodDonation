@@ -1,0 +1,20 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_reg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".RegActivity"
+    android:background="@drawable/bg_main">
+
+    <!--
+    This title strip will display the currently visible page title, as well as the page
+    titles for adjacent pages.
+
+    <com.astuetz.viewpager.extensions.PagerSlidingTabStrip
+            android:id="@+id/sliding_tab_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    -->
+
+</android.support.v4.view.ViewPager>
